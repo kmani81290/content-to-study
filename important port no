@@ -1,0 +1,42 @@
+List of important port numbers
+
+15	è	Netstat
+21	è 	FTP
+23	è 	Telnet
+25	è 	SMTP
+42	è	WINS
+53	è	DNS
+67	è	Bootp
+68	è	DHCP
+80	è 	HTTP
+88	è 	Kerberos
+101	è 	HOSTNAME
+110	è	POP3
+119	è 	NNTP
+123	è	NTP	(Network time protocol)
+139	è	NetBIOS
+161	è 	SNMP
+180	è 	RIS
+389	è	LDAP	(Lightweight Directory Access Protocol)
+443	è 	HTTPS (HTTP over SSL/TLS)
+520	è	RIP
+79	è 	FINGER
+37	è	Time
+3389	è 	Terminal services
+443	è	SSL (https) (http protocol over TLS/SSL)
+220	è	IMAP3
+3268	è	AD Global Catalog
+3269	è	AD Global Catalog over SSL 	
+500	è	Internet Key Exchange, IKE (IPSec) (UDP 500) 
+Consider a case in which you received a call from such a user who has just got a brand new printer and installed it for himself. Some time after installing it, the user experiences that every time the print has to be taken, all that is obtained is garbled text rather than a good print. However, if the test page is printed fine, then how would you handle this problem? 
+The most possible reason for this problem could be that the customer must have installed an Incorrect Device Driver for the brand new printer. Tell the interviewer that your approach towards this problem would be to uninstall the Incorrect Driver from the Windows Device Manager and then install the correct one from the printer. If in case the desired disc is not available, then you can definitely download the correct device driver from the official website of the respective manufacturer of the product. 
+A customer complains that his computer is working slowly. What things should you check?      
+Check the following:   
+- Is start-up time longer than usual?
+- Is it slower with one particular application or slower overall?  
+- Are there any viruses, malware or spyware?  
+- Available Hard Disk space.
+Exchange server 2007/2010
+What does DNS stand for and what is it used for?      
+Domain Name Service (or System or Server) – it translates domain names into IPaddresses.
+
