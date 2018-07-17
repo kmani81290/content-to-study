@@ -256,7 +256,7 @@ Port Number	Protocol	Network Application Description
 
 1024–49151 Port Numbers
 Port Number	Protocol	Network Application Description
-1025	TCP	NFS-or-IIS
+1025/2049	TCP	NFS-or-IIS  -------   https://www.linuxnix.com/important-port-numbers-linux-system-administrator/
 1026	TCP	Often utilized by Microsoft DCOM services
 
 1029	TCP	Often utilized by Microsoft DCOM services
