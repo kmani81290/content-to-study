@@ -1,0 +1,39 @@
+http://ubuntuhandbook.org/index.php/2016/04/enable-ssh-ubuntu-16-04-lts/
+
+sudo apt-get install openssh-server
+sudo service ssh status
+sudo nano /etc/ssh/sshd_config
+
+#######################################
+  # This is the sshd server system-wide configuration file.  See
+# sshd_config(5) for more information.
+
+# This sshd was compiled with PATH=/usr/bin:/bin:/usr/sbin:/sbin
+
+# The strategy used for options in the default sshd_config shipped with
+# OpenSSH is to specify options with their default value where
+# possible, but leave them commented.  Uncommented options override the
+# default value.
+
+Port 22
+#AddressFamily any
+#ListenAddress 0.0.0.0
+#ListenAddress ::
+protocol 2
+HostKey /etc/ssh/ssh_host_rsa_key
+HostKey /etc/ssh/ssh_host_ecdsa_key
+HostKey /etc/ssh/ssh_host_ed25519_key
+
+# Ciphers and keying
+#RekeyLimit default none
+
+# Logging
+#SyslogFacility AUTH
+#LogLevel INFO
+
+# Authentication:
+
+LoginGraceTime 120
+PermitRootLogin prohibit-password
+StrictModes yes
+#######################################
