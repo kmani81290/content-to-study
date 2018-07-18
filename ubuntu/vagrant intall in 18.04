@@ -1,0 +1,9 @@
+http://www.codebind.com/linux-tutorials/install-vagrant-ubuntu-18-04-lts-linux/
+vagrant box add ubuntu/trusty64
+
+sudo apt-get install virtualbox
+sudo apt-get install vagrant
+vagrant box add ubuntu/trusty64
+$ vagrant init ubuntu/trusty64
+vagrant up
+vagrant ssh
