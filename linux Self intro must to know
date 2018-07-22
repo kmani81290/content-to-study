@@ -1,0 +1,53 @@
+https://www.linuxnix.com/umask-define-linuxunix/
+
+WHAT IS UMASK AND HOW TO SET UMASK IN LINUX/UNIX?
+Posted by Surendra Anne | Dec 27, 2011 | Administration | 17  |     
+
+ What is UMASK and how to set UMASK in Linux/Unix?
+ 
+ https://www.linuxnix.com/umask-define-linuxunix/
+ 
+ 
+ 
+ 
+ kick start
+ 
+ Kick start is OS auto for client wit out user interfa ,
+ config file , configure kick start conf file using ftp
+ opne anakonda file by editing manulaly system-config-      
+ yum install system-config-kickstart -y
+ system config kickstart
+ open gui 
+ sel language
+ root password
+ reboot
+ perform text mode or normal
+ cd rom instal path installation sorce
+ install boot loader /grub paswd
+ selct partion
+  / /boot  in xfs file systeem
+  network interface use dhcp/ip/subnet/gateway/  
+  package selections
+  and scripts
+  
+  \
+  save in name ks.cfg
+  
+  open anaconda 
+ copy files %packages to all
+  end of the lines copied
+  scd ks.cfg
+  last line
+  pate the copied kick fron ftp
+  yum instll vsftpd -y
+  cp ks.cfg /var/ftp/pub
+  firewall-cmd --permanaent --add-service=ftp
+  firewall-cmd --reload
+  systemctl start vsftpd
+  systemct;l enable vsftpd
+  
+  restart press tab while booting
+  last line s=ftp://192.168.1.1/pub/ks.cfg
+  
+ 
+ 
